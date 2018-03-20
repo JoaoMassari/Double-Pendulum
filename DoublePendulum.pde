@@ -72,11 +72,11 @@ void draw(){
    float y2 = y1 + r2 * cos(a2);
   
   
-   
+   //drawing frist pendulum
    line(0,0,x1,y1);
    fill(0);
    ellipse(x1,y1,m1,m1);
-   
+   //drawing second pendulum
    line(x1,y1,x2,y2);
    fill(0);
    ellipse(x2,y2,m2,m2);
