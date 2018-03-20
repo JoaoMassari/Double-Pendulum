@@ -89,6 +89,7 @@ void draw(){
    
    
   canvas.beginDraw();
+  //translate the canvas as well
   canvas.translate(cx,cy);
   canvas.strokeWeight(4);
   canvas.stroke(0);
